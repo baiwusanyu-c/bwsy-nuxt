@@ -34,3 +34,6 @@ export {
 export type { ResolveModuleOptions, RequireModuleOptions } from './internal/cjs'
 export { tryResolveModule } from './internal/esm'
 export * from './internal/template'
+
+// 用于创作Nuxt模块的工具包
+// nuxt 内一些公共函数、对外的一些工具 Api 在这个包内维护
